@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    
+    margin: 0;
+    padding:0;
+    font-family: Arial;
+}
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+ }
+
+
+/*carousel*/
+
+.container-fluid h4{
+    color: aqua;
+}
+.container-fluid p{
+    color:darkblue;
+    font-size: 1.4rem;
+}
+.container-fluid a{
+    color: darkblue;
+}
+
+.carousel-item img{
+     height:510px;
+     width:40%;
+}
+
+ 
+/*nav*/
+.mynav{
+     width: 100%;
+     height:75px;
+     margin-top:17px;
+     left:0;
+     padding: 10px 10px;
+     box-sizing: border-box;
+     position:absolute;
+     overflow: hidden;
+ }
+ .mynav img{
+     height: 10vh;
+     margin:0px;
+     padding-left: 0px;
+     border:2px solid white;
+     margin-top: 12px;
+ }
+ .navbar-brand{
+     color: black!important;
+     text-transform: uppercase;
+     padding-left: 20px;
+ }
+ .nav-item{
+    padding:15px 33px;
+    text-decoration:none;
+    font-weight:bold;
+    text-transform: uppercase;
+    
+ }
+ .navs a{
+     color:darkblue !important;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .cont{
+     background-color: gray;
+     border:2px solid black;
+     padding:4.8px;
+     margin-right: 5px;
+ }
+ .navs a:hover{
+     color: black !important;
+ }
+ /*cards*/
+ .row{
+     padding: 10px;
+     margin-top:25px;
+ }
+ .top{
+     background-color:white;
+     font-size: 30px;
+     text-transform: uppercase;
+     padding-left: 400px;
+     color: darkblue;
+     text-overflow: hidden;
+     
+ }
+ .card{
+     margin-top: 20px;
+     height: 78vh;
+     width: 90%;
+     margin-bottom:18px ;
+ }
+ .card img{
+     height: 50vh;
+     width: 100%;
+ }
+ .card:hover{
+     border:1px solid white;
+     opacity: 0.8;
+ }
+ .card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+
+ }
+ .card-text{
+     font-size: 17px;
+     overflow: hidden;
+     
+ }
+
+ .card-body a{
+     margin-top:10px;
+     padding:3px;   
+ }
+ /*container*/
+
+ .img1{
+     height: 70vh;
+     width: 115%;
+     margin-left: -67px;
+     margin-bottom: 15px;
+ }
+ .img2{
+     height:70vh;
+     width:115%;
+     margin-bottom: 15px;
+ }
+ .img3{
+     height:70vh;
+     width: 115%;
+     margin-left: -67px;
+     margin-bottom: 15px;   
+    
+ }
+ h5.text{ 
+     margin-top:120px;
+     font-size: 1.6rem;
+     font-weight: bold;
+ }
+ .add{
+     text-align: justify;
+     font-size: 1.2rem;
+     color: darkblue!important;
+ }
+ .btn-light{
+    border:2px solid black; 
+    padding:8px;
+ }
+ .btn-light a{
+     color: black;
+     text-decoration:none;    
+ }
+ /*bottom*/
+#end{
+    background-color:rgb(219, 219, 219);
+    height: 465px;
+    margin-left: -41px;
+    margin-right: -39px;
+}
+ .brand-name{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 1.4rem;
+     color: darkblue!important;
+     margin-top: 20px;
+     margin-bottom: 10px;
+ }
+ .brand-logo{
+     height: 10vh;
+     border:1px solid white;
+ }
+ a.tex{
+    text-decoration:none;
+    color: darkblue!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+ }
+ .text{
+     color: black!important;
+     font-size: 1.1rem;
+     margin-top: 6px;
+     margin-right: 5px;
+     margin-left: 3px;
+     line-height: 6vh;
+     text-overflow: hidden;
+     
+ }
+ .title{
+     text-align:left;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 1.4rem;
+     color: darkblue!important;
+     margin-top: 29px;
+     margin-bottom: 10px;
+     margin-left: 2px;
+
+ }
+ .tags a{
+     color: black!important;
+     text-decoration: none;
+     font-size: 1.1rem;
+     text-align:left;
+     line-height: 8.2vh;
+
+ }
+ /*social media*/
+ .icon{
+     color:darkblue!important;
+     margin-top: 20px;
+ }
